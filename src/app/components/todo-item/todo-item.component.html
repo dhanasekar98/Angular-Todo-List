@@ -1,0 +1,8 @@
+
+<div class="flex form-check" [ngClass]="setClass()">
+<input id={{todo.title}} class="form-check-input" type="checkbox" (change)="onChange(todo)">
+    <p >
+        {{todo.title}}
+    </p>
+    <button class="btn btn-danger" (click)="onClick(todo)">X</button>
+</div>

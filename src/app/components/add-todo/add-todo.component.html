@@ -1,0 +1,12 @@
+<form style="margin-bottom:10px" class="form" (ngSubmit)="onSubmit()">
+    <div class="row">
+        <div class="col-md-6">
+            <label class="form-label">Add Todo</label>
+             <input type="text" class="form-control" name="title" [(ngModel)]="title" placeholder="Add Todo.." />
+             </div>
+             <div class="col-md-2">
+                <br>
+             <input type="submit" style="margin-top:8px" class="btn btn-primary" value="submit">
+             </div>
+    </div>
+</form>
